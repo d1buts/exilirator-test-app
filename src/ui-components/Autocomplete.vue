@@ -8,9 +8,9 @@
 
         template(v-if="isPresentSelect")
             .autocomplete__dropdown
-                template(v-for="option in selectOptions")
+                template(v-for="(option, index) in selectOptions")
                     .autocomplete__option(
-                        :key="option.id"
+                        :key="index"
                         @click="onClickDropdownOption(option)"
                     )
                         slot(
