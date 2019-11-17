@@ -1,6 +1,6 @@
 # exilirator-test-app
 
-####Frontend Test Task
+### Frontend Test Task
 
 Create a dropdown element with autocomplete functionality
 
